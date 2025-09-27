@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ManoshitsDev - InfoMe</title>
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Particles Container -->
+    <div id="particles-container"></div>
+
+    <!-- Entry Screen -->
+    <div id="entry-screen" class="entry-screen">
+        <div class="entry-content">
+            <h1 class="entry-title">ManoshitsDev</h1>
+            <p class="entry-subtitle">Welcome to my digital space</p>
+            <button id="enter-btn" class="enter-btn">
+                <span>ENTER</span>
+                <div class="btn-glow"></div>
+            </button>
+        </div>
+        <div class="scanner-line"></div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main-content" class="main-content hidden">
+        <div class="container">
+            <!-- Header -->
+            <header class="header">
+                <h1 class="main-title">ManoshitsDev</h1>
+                <p class="subtitle">Full-Stack Developer & Digital Creator</p>
+            </header>
+
+            <!-- Digital Clock -->
+            <div class="clock-container">
+                <div id="digital-clock" class="digital-clock">00:00:00</div>
+                <div class="clock-label">LOCAL TIME</div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-grid">
+                <a href="https://github.com/ManoshitsDev" class="social-card" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <span class="social-label">GitHub</span>
+                    <div class="social-glow"></div>
+                </a>
+
+                <a href="#" class="social-card" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <span class="social-label">Twitter</span>
+                    <div class="social-glow"></div>
+                </a>
+
+                <a href="#" class="social-card" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <span class="social-label">Instagram</span>
+                    <div class="social-glow"></div>
+                </a>
+
+                <a href="https://discord.com/users/803789347526672415" class="social-card" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon">
+                        <i class="fab fa-discord"></i>
+                    </div>
+                    <span class="social-label">Discord</span>
+                    <div class="social-glow"></div>
+                </a>
+
+                <a href="https://www.youtube.com/@ManoshzDev" class="social-card" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <span class="social-label">YouTube</span>
+                    <div class="social-glow"></div>
+                </a>
+            </div>
+
+            <!-- Status Indicator -->
+            <div class="status-container">
+                <div class="status-indicator">
+                    <div class="status-dot"></div>
+                    <span class="status-text">Available for projects</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+    <!-- Background Music -->
+    <audio id="backgroundMusic" loop>
+        <source src="assets/fundoa.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
